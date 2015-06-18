@@ -23,6 +23,19 @@ If we only had one data set to analyze, it would probably be faster to load the 
 But we have twelve files to check, and may have more in the future.
 In this lesson, we'll learn how to write a function so that we can repeat several operations with a single command.
 
+### What is a function??
+A function is self-contained code that accomplishes a specific task.  Functions usually have three parts:  
+1. Take in data.  
+2. Process the data (a.k.a. the "body" of the function).  
+3. Return a result.  
+
+### Why use functions??
+So many reasons!  A few important reasons are:  
+* Reusability! Functions allow us to reuse code instead of re-writing it!  Once a function is written, it can be used over and over again and can also be called within other functions. This leads to more efficient programming.
+* Functions break down our programs into many steps, working in steps can make a difficult problem easier.  
+* We can test small parts of our program in isolation from the rest of the code with functions.  
+* Most programming languages provide many built in functions that would otherwise require many steps to accomplish.  As the user if we know what the function does, we can use the function without knowing the intracicies of how it works.
+
 ### Defining a Function
 
 Let's start by defining a function `fahr_to_kelvin` that converts temperatures from Fahrenheit to Kelvin:
